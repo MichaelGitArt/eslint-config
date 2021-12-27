@@ -1,0 +1,28 @@
+{
+  "name": "@gitart/eslint-config-vue",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Michael Gitart",
+    "email": "michaelgitart@gmail.com"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=8.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@gitart/eslint-config-ts": "^0.0.1",
+    "eslint-plugin-vue": "^8.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0"
+  }
+}

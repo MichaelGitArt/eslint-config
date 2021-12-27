@@ -1,0 +1,29 @@
+{
+  "name": "@gitart/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Michael Gitart",
+    "email": "michaelgitart@gmail.com"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0"
+  }
+}
