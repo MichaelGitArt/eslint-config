@@ -10,6 +10,17 @@ module.exports = {
         'no-unused-vars': 'off',
         'no-undef': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
+        'vue/max-attributes-per-line': ['warn', {
+          singleline: 2,
+          multiline: 1,
+        }],
+        'vue/component-name-in-template-casing': [
+          'warn',
+          'PascalCase',
+          {
+            registeredComponentsOnly: false,
+          },
+        ],
       },
     },
   ],
