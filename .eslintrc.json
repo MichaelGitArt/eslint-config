@@ -1,0 +1,3 @@
+{
+  "extends": "@gitart/eslint-config-basic"
+}

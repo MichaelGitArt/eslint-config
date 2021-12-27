@@ -13,6 +13,7 @@
     "release": "lerna publish"
   },
   "devDependencies": {
+    "@gitart/eslint-config-basic": "*",
     "eslint": "^8.3.0",
     "lerna": "^4.0.0",
     "typescript": "^4.5.2"

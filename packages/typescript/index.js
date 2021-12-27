@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const basic = require('@gitart/eslint-config-basic')
 
 module.exports = {
