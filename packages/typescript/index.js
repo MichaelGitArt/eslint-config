@@ -14,8 +14,10 @@ module.exports = {
     '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'none' } }],
     '@typescript-eslint/type-annotation-spacing': ['error', {}],
     '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: false }],
+    '@typescript-eslint/object-curly-spacing': ['error', 'always'],
 
     // Override JS
+    'object-curly-spacing': 'off',
     'no-useless-constructor': 'off',
     'indent': 'off',
     '@typescript-eslint/indent': ['error', 2],
