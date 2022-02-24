@@ -20,6 +20,12 @@ module.exports = {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
     },
   },
+
+  ignorePatterns: [
+    'pnpm-lock.yaml',
+    '**/vendor/*',
+  ],
+
   overrides: [
     {
       files: ['*.json', '*.json5'],
