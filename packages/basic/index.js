@@ -24,6 +24,7 @@ module.exports = {
   ignorePatterns: [
     'pnpm-lock.yaml',
     '**/vendor/*',
+    '**/dist/*',
   ],
 
   overrides: [
