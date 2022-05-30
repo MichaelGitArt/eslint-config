@@ -62,10 +62,10 @@ importers:
     specifiers:
       '@gitart/eslint-config-ts': ^0.0.13
       eslint: ^8.16.0
-      eslint-plugin-vue: ^8.1.1
+      eslint-plugin-vue: ^9.0.1
     dependencies:
       '@gitart/eslint-config-ts': link:../typescript
-      eslint-plugin-vue: 8.7.1_eslint@8.16.0
+      eslint-plugin-vue: 9.0.1_eslint@8.16.0
     devDependencies:
       eslint: 8.16.0
 
@@ -2003,9 +2003,9 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-vue/8.7.1_eslint@8.16.0:
-    resolution: {integrity: sha512-28sbtm4l4cOzoO1LtzQPxfxhQABararUb1JtqusQqObJpWX2e/gmVyeYVfepizPFne0Q5cILkYGiBoV36L12Wg==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /eslint-plugin-vue/9.0.1_eslint@8.16.0:
+    resolution: {integrity: sha512-/w/9/vzz+4bSYtp5UqXgJ0CfycXTMtpp6lkz7/fMp0CcJxPWyRP6Pr88ihhrsNEcVt2ZweMupWRNYa+5Md41LQ==}
+    engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
     dependencies:
@@ -2015,7 +2015,8 @@ packages:
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.10
       semver: 7.3.7
-      vue-eslint-parser: 8.3.0_eslint@8.16.0
+      vue-eslint-parser: 9.0.2_eslint@8.16.0
+      xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -4898,9 +4899,9 @@ packages:
       extsprintf: 1.3.0
     dev: true
 
-  /vue-eslint-parser/8.3.0_eslint@8.16.0:
-    resolution: {integrity: sha512-dzHGG3+sYwSf6zFBa0Gi9ZDshD7+ad14DGOdTLjruRVgZXe2J+DcZ9iUhyR48z5g1PqRa20yt3Njna/veLJL/g==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /vue-eslint-parser/9.0.2_eslint@8.16.0:
+    resolution: {integrity: sha512-uCPQwTGjOtAYrwnU+76pYxalhjsh7iFBsHwBqDHiOPTxtICDaraO4Szw54WFTNZTAEsgHHzqFOu1mmnBOBRzDA==}
+    engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
@@ -5056,6 +5057,11 @@ packages:
       type-fest: 0.4.1
       write-json-file: 3.2.0
     dev: true
+
+  /xml-name-validator/4.0.0:
+    resolution: {integrity: sha512-ICP2e+jsHvAj2E2lIHxa5tjXRlKDJo4IdvPvCXbXQGdzSfmSpNVyIKMvoZHjDY9DP0zV17iI85o90vRFXNccRw==}
+    engines: {node: '>=12'}
+    dev: false
 
   /xtend/4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
