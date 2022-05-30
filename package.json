@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "@gitart/eslint-config-basic": "*",
+    "@lerna-lite/cli": "^1.3.0",
     "eslint": "^8.3.0",
-    "lerna": "^4.0.0",
     "typescript": "^4.5.2"
   }
 }
