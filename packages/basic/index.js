@@ -109,11 +109,42 @@ module.exports = {
   ],
   rules: {
     // import
-    'import/order': 'error',
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
+    'import/order': ['error', {
+      'newlines-between': 'always-and-inside-groups',
+      'groups': [
+        'type',
+        'builtin',
+        'external',
+        'internal',
+        'parent',
+        'sibling',
+        'object',
+        'index',
+      ],
+      'pathGroups': [
+        {
+          pattern: '@/**',
+          group: 'internal',
+        },
+        {
+          pattern: '@*/**',
+          group: 'internal',
+          position: 'after',
+        },
+        {
+          pattern: '~/**',
+          group: 'internal',
+        },
+        {
+          pattern: '#*',
+          group: 'internal',
+        },
+      ],
+    }],
 
     // Common
     'semi': ['error', 'never'],
