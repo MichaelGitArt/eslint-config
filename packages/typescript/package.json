@@ -17,13 +17,13 @@
     "typescript": ">=3.3.1"
   },
   "dependencies": {
-    "@gitart/eslint-config-basic": "^0.2.3",
-    "@typescript-eslint/eslint-plugin": "^5.28.0",
-    "@typescript-eslint/parser": "^5.28.0"
+    "@gitart/eslint-config-basic": "workspace:^0.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0"
   },
   "devDependencies": {
-    "eslint": "^8.16.0",
-    "typescript": "^4.5.2"
+    "eslint": "^8.36.0",
+    "typescript": "^5.0.2"
   },
   "publishConfig": {
     "access": "public"
