@@ -7,6 +7,10 @@ module.exports = {
         parser: '@typescript-eslint/parser',
       },
       rules: {
+        'vue/valid-v-slot': ['error', {
+          allowModifiers: true,
+        }],
+
         'no-unused-vars': 'off',
         'no-undef': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
