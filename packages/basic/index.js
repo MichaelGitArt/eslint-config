@@ -108,6 +108,8 @@ module.exports = {
     },
   ],
   rules: {
+    'eslint-comments/no-unlimited-disable': 'off',
+
     // import
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
