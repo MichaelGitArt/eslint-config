@@ -1,6 +1,6 @@
 {
   "name": "@gitart/eslint-config-vue",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -16,7 +16,7 @@
     "eslint": ">=8.16.0"
   },
   "dependencies": {
-    "@gitart/eslint-config-ts": "workspace:^0.2.3",
+    "@gitart/eslint-config-ts": "workspace:^0.3.0",
     "eslint-plugin-vue": "^9.10.0"
   },
   "devDependencies": {
