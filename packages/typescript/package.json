@@ -1,6 +1,6 @@
 {
   "name": "@gitart/eslint-config-ts",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -17,7 +17,7 @@
     "typescript": ">=5.0.0"
   },
   "dependencies": {
-    "@gitart/eslint-config-basic": "workspace:^0.3.0",
+    "@gitart/eslint-config-basic": "workspace:^1.0.0",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0"
   },
