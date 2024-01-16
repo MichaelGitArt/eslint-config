@@ -13,9 +13,9 @@
     "release": "lerna publish"
   },
   "devDependencies": {
-    "@gitart/eslint-config-basic": "^0.2.3",
-    "@lerna-lite/cli": "^1.17.0",
-    "eslint": "^8.36.0",
-    "typescript": "^5.0.2"
+    "@gitart/eslint-config-basic": "^0.3.0",
+    "@lerna-lite/cli": "^3.2.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
   }
 }
